@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deleteuserfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/deletetheuser"
+        android:layout_width="275dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/user_delete"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/deluserid"
+        android:layout_width="331dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="180dp"
+        android:hint="@string/user_id" />
+
+    <Button
+        android:id="@+id/delbtn"
+        android:layout_width="218dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/delete_userdata"
+        android:textSize="20dp" />
+
+</FrameLayout>

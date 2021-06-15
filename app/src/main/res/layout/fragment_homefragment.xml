@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/adduser"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/add_user"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/viewuser"
+        android:layout_width="232dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/view_user"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/deleteuser"
+        android:layout_width="224dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/delete_user"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+
+    <Button
+        android:id="@+id/updateuser"
+        android:layout_width="230dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/update_user"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+</FrameLayout>
